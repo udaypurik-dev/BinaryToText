@@ -20,7 +20,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 1. Clone or download this repository to your local machine.
 2. Open a terminal or command prompt and navigate to the project directory:
    ```cmd
-   cd path/to/binary-translator
+   cd path/to/BinaryToText
    ```
 3. Install the required dependencies:
    ```cmd
