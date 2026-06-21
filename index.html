@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Binary Translator</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="glass-container">
+    <div class="title-bar">
+      <div class="window-controls">
+        <div class="control close" id="close-btn"></div>
+        <div class="control minimize" id="min-btn"></div>
+        <div class="control maximize"></div>
+      </div>
+      <div class="title">Binary Translator</div>
+    </div>
+    
+    <div class="content">
+      <div class="input-group">
+        <label for="english-input">English</label>
+        <textarea id="english-input" placeholder="Type text here to translate..."></textarea>
+      </div>
+      
+      <div class="input-group">
+        <label for="binary-output">Binary</label>
+        <textarea id="binary-output" placeholder="01100010 01101001 01101110 01100001 01110010 01111001"></textarea>
+      </div>
+
+      <button id="copy-btn">Copy Binary</button>
+      <div id="copy-status">Copied to clipboard!</div>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
